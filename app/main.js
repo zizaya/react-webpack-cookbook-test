@@ -6,3 +6,12 @@ var mainCom = ReactDOM.render(
 	<Titlecomponent/>,
 	document.getElementById('app')
 )
+
+/*import React from 'react';
+import Titlecomponent from './component.js';
+
+main();
+
+function main() {
+	React.render(<Titlecomponent />,document.getElementById('app'));
+}*/

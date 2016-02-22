@@ -7,3 +7,11 @@ module.exports = React.createClass({
 		)
 	}
 })
+
+/*import React from 'react';
+
+export default class Titlecomponent extends React.Component {
+	render() {
+		return <h1>Hello world</h1>;
+	}
+}*/

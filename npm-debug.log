@@ -2,28 +2,28 @@
 1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
 1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
 1 verbose cli   'run',
-1 verbose cli   'test' ]
+1 verbose cli   'dev' ]
 2 info using npm@1.4.28
 3 info using node@v0.10.33
 4 verbose node symlink C:\Program Files\nodejs\\node.exe
-5 verbose run-script [ 'pretest', 'test', 'posttest' ]
-6 info pretest react-webapack-cookbook@1.0.0
-7 info test react-webapack-cookbook@1.0.0
+5 verbose run-script [ 'predev', 'dev', 'postdev' ]
+6 info predev react-webapack-cookbook@1.0.0
+7 info dev react-webapack-cookbook@1.0.0
 8 verbose unsafe-perm in lifecycle true
-9 info react-webapack-cookbook@1.0.0 Failed to exec test script
-10 error react-webapack-cookbook@1.0.0 test: `echo "Error: no test specified" && exit 1`
-10 error Exit status 1
-11 error Failed at the react-webapack-cookbook@1.0.0 test script.
+9 info react-webapack-cookbook@1.0.0 Failed to exec dev script
+10 error react-webapack-cookbook@1.0.0 dev: `webpack-dev-server --devtool eval --progress --colors --hot --content-base build`
+10 error Exit status 8
+11 error Failed at the react-webapack-cookbook@1.0.0 dev script.
 11 error This is most likely a problem with the react-webapack-cookbook package,
 11 error not with npm itself.
 11 error Tell the author that this fails on your system:
-11 error     echo "Error: no test specified" && exit 1
+11 error     webpack-dev-server --devtool eval --progress --colors --hot --content-base build
 11 error You can get their info via:
 11 error     npm owner ls react-webapack-cookbook
 11 error There is likely additional logging output above.
 12 error System Windows_NT 6.1.7601
-13 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "run" "test"
-14 error cwd F:\mySite\react-webapack-cookbook
+13 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "run" "dev"
+14 error cwd F:\mySite\react-webpack-cookbook-test
 15 error node -v v0.10.33
 16 error npm -v 1.4.28
 17 error code ELIFECYCLE
